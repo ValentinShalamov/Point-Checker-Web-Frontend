@@ -1,7 +1,7 @@
 
-const POINT_URL = "http://localhost:8082/point";
-const LOGOUT_URL = "http://localhost:8082/logout";
-const LOGIN_PAGE_URL = "http://localhost:8082/login";
+const POINT_URL = "https://localhost:8083/point";
+const LOGOUT_URL = "https://localhost:8083/logout";
+const LOGIN_PAGE_URL = "https://localhost:8083/login";
 
 let hasRequest = false;
 
