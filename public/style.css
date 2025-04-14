@@ -1,0 +1,109 @@
+input[type='radio'] {
+    margin-top: -2.5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #eee;
+    vertical-align: middle;
+    @media (max-width: 650px) {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+fieldset {
+    border: 0 none;
+    text-align: left;
+    margin-left: -20px;
+    word-spacing: 5px;
+}
+
+main {
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    font-size: 1rem;
+    @media (max-width: 650px) {
+        font-size: 0.7rem;
+    }
+}
+
+caption {
+    text-align: left;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+    @media (max-width: 650px) {
+        font-size: 1rem;
+    }
+
+    @media (max-width: 560px) {
+        font-size: 0.7rem;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    background-color: #eee;
+    @media (max-width: 650px) {
+        font-size: 0.8rem;
+    }
+
+    @media (max-width: 560px) {
+        font-size: 0.5rem;
+        min-width: 50px;
+    }
+
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+}
+
+thead th:nth-child(2) {
+    width: 18%;
+}
+
+thead th:nth-child(3) {
+    width: 18%;
+}
+
+thead th:nth-child(4) {
+    width: 18%;
+}
+
+thead th:nth-child(5) {
+    width: 18%;
+}
+
+thead th:nth-child(6) {
+    width: 10%;
+}
+
+th,
+td {
+    border: 1px solid lightgray;
+    padding: 10px 20px ;
+    @media (max-width: 560px) {
+        padding: 6px;
+    }
+}
+
+th {
+    background: rgba(227, 227, 227);
+    color: gray;
+}
+
+td {
+    background: white;
+}

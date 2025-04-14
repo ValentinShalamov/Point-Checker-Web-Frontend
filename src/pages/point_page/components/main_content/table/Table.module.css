@@ -1,0 +1,13 @@
+.errorMessage {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgb(207, 90, 12);
+}
+
+.inputInTable {
+    font-size: 0.8rem;
+    width: 40px;
+    height: 15px;
+    text-align: center;
+}

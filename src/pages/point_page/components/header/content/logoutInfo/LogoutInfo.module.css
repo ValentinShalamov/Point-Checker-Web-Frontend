@@ -1,0 +1,21 @@
+.username {
+    font-style: italic;
+}
+
+.username::before {
+    padding-right: 3px;
+    content : "Current User : "
+}
+
+button.logout {
+    background: rgba(245, 244, 242, 0.3);
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+button.logout:hover {
+    cursor: pointer;
+    background: rgba(245, 244, 242);
+}

@@ -1,0 +1,14 @@
+
+.pageHeader {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 50px;
+    @media (max-width: 650px) {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,15 @@
+
+.img {
+    padding-top: 10px;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.text {
+    padding-top: 16px;
+    @media (max-width: 650px) {
+        width: 80%;
+    }
+}
