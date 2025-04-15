@@ -1,7 +1,7 @@
 
-const POINT_URL = "/api/point";
-const LOGOUT_URL = "/api/logout";
-const LOGIN_PAGE_URL = "/api/login";
+const POINT_URL = "https://valentin-shalamov.pro/api/point";
+const LOGOUT_URL = "https://valentin-shalamov.pro/api/logout";
+const LOGIN_PAGE_URL = "https://valentin-shalamov.pro/api/login";
 
 let hasRequest = false;
 
