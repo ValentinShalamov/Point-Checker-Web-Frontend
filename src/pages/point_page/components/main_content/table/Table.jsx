@@ -7,7 +7,7 @@ import styles from "./Table.module.css";
 
 const binSrc = `${LAB_PATH}/images/bin.svg`;
 const pencilSrc = `${LAB_PATH}/images/pencil.svg`;
-const tickSrc = `${LAB_PATH}/images/tick.svg`;
+const tickSrc = `${LAB_PATH}/images/tick.svgasdasdas`;
 const cancelSrc = `${LAB_PATH}/images/cancel.svg`;
 
 export default function Table({points, setPoints}) {
