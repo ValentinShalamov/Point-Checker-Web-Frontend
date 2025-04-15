@@ -5,7 +5,7 @@ import {POINT_ID, R_NAME, X_NAME, Y_NAME} from "../../../js/constants.js";
 import {getValidationErrors} from "../../../js/input_data_validator.js";
 import styles from "./Table.module.css";
 
-// const binSrc = `https://valentin-shalamov.pro/lab4/images/bin.svg`;
+const binSrc = `/images/bin.svg`;
 const pencilSrc = `/images/pencil.svg`;
 const tickSrc = `/images/tick.svg`;
 const cancelSrc = `/images/cancel.svg`;
@@ -181,7 +181,7 @@ export default function Table({points, setPoints}) {
                                     onClick={() => binClick(point.id)}
                                     width={20}
                                     height={20}
-                                    src="https://valentin-shalamov.pro/lab4/images/bin.svg"
+                                    src={binSrc}
                                 />
                             </td>
                         </tr>)
