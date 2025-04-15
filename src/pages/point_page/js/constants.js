@@ -19,3 +19,5 @@ export const FILL_X_FORM = `X must be between ${X_MIN} and ${X_MAX}`;
 export const FILL_R_FORM = `Radius must be {1, 2, 3, 4, 5}`;
 export const FILL_Y_FORM = `Y must be between ${Y_MIN} and ${Y_MAX}`;
 export const INCORRECT_INPUT = `The incorrect data`;
+
+export const LAB_PATH = "/lab4";

@@ -1,14 +1,14 @@
 import {useState} from "react";
 import Icon from "../../icon/Icon.jsx";
 import {deleteAndGetPoints, updateAndGetPoints} from "../../../js/requests.js";
-import {POINT_ID, R_NAME, X_NAME, Y_NAME} from "../../../js/constants.js";
+import {LAB_PATH, POINT_ID, R_NAME, X_NAME, Y_NAME} from "../../../js/constants.js";
 import {getValidationErrors} from "../../../js/input_data_validator.js";
 import styles from "./Table.module.css";
 
-const binSrc = "/images/bin.svg";
-const pencilSrc = "/images/pencil.svg";
-const tickSrc = "/images/tick.svg";
-const cancelSrc = "/images/cancel.svg";
+const binSrc = `${LAB_PATH}/images/bin.svg`;
+const pencilSrc = `${LAB_PATH}/images/pencil.svg`;
+const tickSrc = `${LAB_PATH}/images/tick.svg`;
+const cancelSrc = `${LAB_PATH}/images/cancel.svg`;
 
 export default function Table({points, setPoints}) {
     let isHidden = points === undefined || points === false || points.length === 0;
