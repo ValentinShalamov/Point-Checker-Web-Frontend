@@ -10,7 +10,7 @@ import styles from "./Table.module.css";
 // const tickSrc = `${LAB_PATH}/images/tick.svg`;
 // const cancelSrc = `${LAB_PATH}/images/cancel.svg`;
 
-const binSrc = `/images/bin.svg`;
+const binSrc = `/${import.meta.env.BASE_URL}/images/bin.svg`;
 const pencilSrc = `/images/pencil.svg`;
 const tickSrc = `/images/tick.svg`;
 const cancelSrc = `/images/cancel.svg`;
