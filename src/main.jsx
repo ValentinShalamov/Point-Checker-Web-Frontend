@@ -18,7 +18,9 @@ const router = createBrowserRouter([
         path: '/points',
         element: <PointPage />,
     },
-]);
+], {
+    basename: "/lab4"
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
